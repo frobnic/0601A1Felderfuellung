@@ -8,7 +8,6 @@ namespace _0601A1Felderfuellung
         {
             sbyte[] feld = new sbyte[10];
             Random zuf = new Random();
-            sbyte zz = (sbyte)zuf.Next(0, 9);
 
             for (int i = 0; i < 10; i++)
                 feld[i] = (sbyte)(i + 1);
